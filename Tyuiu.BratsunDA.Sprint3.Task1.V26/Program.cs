@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.BratsunDA.Sprint3.Task0.V13.Lib;
+using Tyuiu.BratsunDA.Sprint3.Task1.V26.Lib;
 
-namespace Tyuiu.BratsunDA.Sprint3.Task0.V13
+namespace Tyuiu.BratsunDA.Sprint3.Task1.V26
 {
     class Program
     {
@@ -17,8 +17,8 @@ namespace Tyuiu.BratsunDA.Sprint3.Task0.V13
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #13                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #26                                                             *");
             Console.WriteLine("* Выполнил Брацун Д.А. | ПКТБ-23-1                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -28,9 +28,9 @@ namespace Tyuiu.BratsunDA.Sprint3.Task0.V13
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double value = 0.5;
+            int value = 5;
             int startValue = 1;
-            int stopValue = 20;
+            int stopValue = 8;
             Console.WriteLine("Переменная Х = " + value);
 
             Console.WriteLine("Старт шага = " + startValue);
