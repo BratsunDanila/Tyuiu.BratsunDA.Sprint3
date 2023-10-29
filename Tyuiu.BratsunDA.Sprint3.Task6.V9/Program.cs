@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.BratsunDA.Sprint3.Task5.V13.Lib;
+using Tyuiu.BratsunDA.Sprint3.Task6.V9.Lib;
 
-namespace Tyuiu.BratsunDA.Sprint3.Task5.V13
+namespace Tyuiu.BratsunDA.Sprint3.Task6.V9
 {
     class Program
     {
@@ -16,30 +16,28 @@ namespace Tyuiu.BratsunDA.Sprint3.Task5.V13
             Console.Title = "Спринт #3| Выполнил: Брацун Д.А. | ПКТБ-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Вложенные циклы                                                   *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #4                                                              *");
+            Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил Брацун Д.А. | ПКТБ-23-1                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет сумму суммы ряда.                 *");
+            Console.WriteLine("* Написать программу, которая ищет среди целых чисел, принадлежащих       *");
+            Console.WriteLine("* числовому отрезку [19, 30] количество всех делителей                    *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x = 5;
-            int startValue1 = 1;
-            int stopValue1 = 3;
-            int startValue2 = 1;
-            int stopValue2 = 12;
-            Console.WriteLine("Х = " + x);
+
+            int startValue = 19;
+            int stopValue = 30;
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Результат: " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
+            Console.WriteLine(ds.GetSumTheDivisors(startValue, stopValue));
             Console.ReadKey();
         }
     }
